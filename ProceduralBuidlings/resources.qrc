@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/Actions-help-about-icon.png</file>
+        <file>images/Folder-Open-icon.png</file>
+        <file>images/Close-2-icon.png</file>
+        <file>images/window-full-screen-icon.png</file>
+        <file>images/Folder-Open-icon_small.png</file>
+        <file>Help.html</file>
+    </qresource>
+</RCC>
