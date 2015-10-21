@@ -80,14 +80,17 @@ void Textures::loadTextures(){
 
     QCoreApplication::quit();*/
 
-   textures.push_back(LoadTexture("/home/muhammad/Desktop/textures/tiles_textures_05.bmp", 3112, 2066));
+    QMessageBox::information(NULL, "Information", "<html> Please download the textures I used at this link: <a href=http://www.filedropper.com/textures>http://www.filedropper.com/textures</a> and change the paths to the texture in texture.cpp file</html>");
+    QCoreApplication::quit();
+
+    /*textures.push_back(LoadTexture("/home/muhammad/Desktop/textures/tiles_textures_05.bmp", 3112, 2066));
     textures.push_back(LoadTexture("/home/muhammad/Desktop/textures/door_converted.bmp", 436, 520));
     textures.push_back(LoadTexture("/home/muhammad/Desktop/textures/brick.bmp", 2592, 1854));
     textures.push_back(LoadTexture("/home/muhammad/Desktop/textures/window.bmp", 256, 256));
     textures.push_back(LoadTexture("/home/muhammad/Desktop/textures/roof.bmp", 1460, 1460));
     textures.push_back(LoadTexture("/home/muhammad/Desktop/textures/logo_uni-bonn.bmp", 589, 359));
     textures.push_back(LoadTexture("/home/muhammad/Desktop/textures/pillar.bmp", 135, 221));
-    textures.push_back(LoadTexture("/home/muhammad/Desktop/textures/darkwall.bmp", 529, 622));
+    textures.push_back(LoadTexture("/home/muhammad/Desktop/textures/darkwall.bmp", 529, 622));*/
 
 
 }

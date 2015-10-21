@@ -9,8 +9,7 @@ Some of the functions that I implemented from the paper are as follows:
 * SubDiv
 * Texture
 
-All of the above functions and their use is well documented in the paper itself except for the *Texture* function. This fucntion specifies a texture that a certain component will take during rendering from a predefined list of textures. I also have a simple GUI made in QT for making it easier for loading new files and moving the scene around. Some of the features of the GUI are summarized below:
-![GIU](https://github.com/musaeed/Procedural-modeling-of-buildings/raw/master/screenshots/gui.png)
+All of the above functions and their use is well documented in the paper itself except for the *Texture* function. This fucntion specifies a texture that a certain component will take during rendering from a predefined list of textures. I also have a simple GUI made in QT for making it easier for loading new files and moving the scene around.
 
 An example of the grammar that can be used to render buildings is shown below:
 
@@ -32,13 +31,15 @@ wall->texture("WALL")
 window->texture("WINDOW")
 door->texture("DOOR")
 ```
-The building produced using the grammar above is as follows. Please note that this is a simple example which just creates one building. Much more complex scenes can be created with many buildings in a single scene by extending the grammar. Please refer to the original paper for more details.
+The building produced using the grammar above is as follows. 
 
 ![building](https://github.com/musaeed/Procedural-modeling-of-buildings/raw/master/screenshots/building.png)
 
+**Please note** that this is a simple example which just creates one building. Much more complex scenes can be created with many buildings in a single scene by extending the grammar. Please refer to the original paper for more details.
+
 ### Building the project
 
-Please make sure that you have Open GL and GLUT libraries installed on your computer. They can be installed by using the following command.
+Please make sure that you have Open GL and GLUT libraries installed on your computer. They can be installed by using the following command in the terminal.
 
 ```bash
 sudo apt-get install freeglut3 freeglut3-dev
@@ -51,4 +52,8 @@ After intalling all the previous libraries go into the source code folder and ex
 qmake .
 ```
 
-You should get a *Makefile* in your folder after this. Please use it to compile and run the program. For any questions please email me at muhammad.omar555 [at] gmail . com
+You should get a *Makefile* in your folder after this. Please use it to compile and run the program.
+
+I am also using somre pre-defined textures that can be downloaded [here](http://www.filedropper.com/textures). After downloading the textures change the paths to the textures in the [texture.cpp](https://github.com/musaeed/Procedural-modeling-of-buildings/blob/master/ProceduralBuidlings/textures.cpp) file.
+
+For any further questions please contact me at muhammad.omar555 [at] gmail . com

@@ -6,6 +6,7 @@
 #include <iostream>
 #include <vector>
 #include <QCoreApplication>
+#include <QMessageBox>
 
 using namespace std;
 
